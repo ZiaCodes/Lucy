@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eaeaea;
+}
+section a img{
+  width: fit-content;
+  box-shadow: -6px 6px 200px rgba(0, 255, 255, 1);
+
+}
+
+h2 {
+  font-size: 8em;
+  color: #eaeaea;
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(21, 190, 212);
+}
+
+.box1 {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  width: 250px;
+  height: 250px;
+  background: #eaeaea;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgba(0, 255, 255, 1);
+}
+
+.box2 {
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+  width: 250px;
+  height: 250px;
+  background: #eaeaea;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(600, 100, 2000,250);
+}
+
+.box3 {
+  position: absolute;
+  bottom: 30px;
+  left: 150px;
+  width: 250px;
+  height: 250px;
+  background: #eaeaea;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgba(0, 0, 255, 1);
+}
+
+.box3:before {
+  content: '';
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  background: #eaeaea;
+  border-radius: 50%;
+  box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.08), inset -6px -6px 12px rgba(255, 255, 255, 1);
+}
+
+.box4 {
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  width: 250px;
+  height: 250px;
+  background: #eaeaea;
+  border-radius: 50px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(119, 21, 199);
+}
+
+.box4:before {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  background: #eaeaea;
+  border-radius: 30px;
+  box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.08), inset -6px -6px 12px rgba(255, 255, 255, 1);
+}

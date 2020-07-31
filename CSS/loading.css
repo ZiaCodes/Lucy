@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400");
+#main {
+    position: absolute;
+    z-index: 9999;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .spinner:before,
+  .spinner:after {
+    content: '';
+    position: relative;
+    display: block;
+  }
+  .spinner:before {
+    animation: spinner 2.5s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+    width: 4em;
+    height: 4em;
+    background-color: #32a3b3;
+  }
+  .spinner:after {
+    animation: shadow 2.5s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+    bottom: -0.5em;
+    height: 0.25em;
+    border-radius: 50%;
+    background-color: rgba(#000, 0.2);
+  }
+  
+  @keyframes spinner {
+    50% {
+      border-radius: 50%;
+      transform: scale(0.5) rotate(360deg);
+    }
+    100% {
+      transform: scale(1) rotate(720deg);
+    }
+  }
+  @keyframes shadow {
+    50% {
+      transform: scale(0.5);
+      background-color: rgba(#000, 0.1);
+    }
+  }
+
+
+  /* Navigation bar*/
+  
+  nav .menu ul li{
+    list-style: none;
+  }
+  nav .menu ul li a{
+    text-decoration: none;
+    color: #32a3b3;
+    font-weight: bold;
+  }
+  nav .menu ul li a:hover{
+    color: aqua;
+    transform: scale(1);
+  }
+
+
+
+  
+
+  
