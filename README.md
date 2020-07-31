@@ -5,7 +5,11 @@ An intelligent virtual assistant (IVA) or intelligent personal assistant (IPA) i
 
 ## screenshot
 
-![image](https://raw.githubusercontent.com/ZiaCodes/Lucy/master/Assets/example/Lucy%20Voice%20Assistance%20-%20Google%20Chrome%2031-07-2020%2001_48_59.png) 
+![image](https://raw.githubusercontent.com/ZiaCodes/Lucy/master/Assets/Images/Lucy%20_%20Home%20-%20Google%20Chrome%2001-08-2020%2001_38_13.png) 
+
+![image2](https://raw.githubusercontent.com/ZiaCodes/Lucy/master/Assets/Images/Lucy%20_%20Home%20-%20Google%20Chrome%2001-08-2020%2001_38_34.png)
+
+![image 3](https://raw.githubusercontent.com/ZiaCodes/Lucy/master/Assets/Images/Lucy%20_%20Home%20-%20Google%20Chrome%2001-08-2020%2001_38_48.png)
 
 
 # Installation 
