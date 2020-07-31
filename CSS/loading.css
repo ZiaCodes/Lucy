@@ -51,6 +51,9 @@
 
 
   /* Navigation bar*/
+   nav{
+       margin-left: 12px;
+    }
   
   nav .menu ul li{
     list-style: none;
