@@ -174,7 +174,7 @@ const dark = [
 
 
 // ########################### game of throne   #################################
-
+/*
 const gameofthrones = [
      ' "A mind needs books as a sword needs a whetstone, if it is to keep its edge." — Tyrion Lannister, A Game of Thrones ',
 
@@ -320,7 +320,7 @@ const gameofthrones = [
 69. "We don't have time for all this. The Night King has your dragon. He's one of them now. The Wall has fallen. The dead march south." — Bran Stark, Season 8
 
 70. "Missandei: My people are peaceful. We cannot protect ourselves. Grey Worm: My people are not peaceful. We will protect you." — Season 8 */
-];
+]; */
 
 // ########################## End here(Game of thrones) ########################
 
