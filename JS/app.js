@@ -526,9 +526,9 @@ if (message.includes('who you are')) {
     const finalText = 
     gameofthrones[Math.floor(Math.random() * gameofthrones.length)];
     speech.text = finalText; 
- };
+ }
 
- if (message.includes('martin')) {
+ if (message.includes('winter is coming')) {
     const finalText = 
     gameofthrones[Math.floor(Math.random() * gameofthrones.length)];
     speech.text = finalText;     
