@@ -8,7 +8,6 @@ const greetings = [
     'Doing good Homeboi',
     'leave me alone',
     'I said leave me alone',
-    'Fuck off you Asshole'
 ];
 
 //   #############################  Dark web series  ##################################
@@ -325,26 +324,6 @@ const gameofthrones = [
 // ########################## End here(Game of thrones) ########################
 
 
-//Eid
-const eid = [
-    'Happy Eid to you and to your whole family from my side So what are you going to do todya? I have a muslim friend from middle east she used to invite us I really Love the laccha and Saway ,Anyways enjoy',
-    'Wish you a happy and beautiful Eid',
-    'As salam o alaikum and Happy Eid Mubarak from your Virtual assistance lucy'
-];
-
-//Gupta
-
-const gupta = [
-    'Yes I know two guptas one is Bikash gupta and another is Vikash gupta they are both son of Zia',
-    'Yes I know him He is pathetic piece of shit',
-    'yes Yes that laundiyabaaz right ?',
-    'Yes I know'
-];
-
-const bikash = [
-    'Bikash gupta ummmm , that guy is totally mad in love with that bitch seema, I really feel bad for the guy',
-    'In my data base, I have a bikash gupta who is handsome and the resident of sukanto palli , right ? '
-]
 
 //magic
 
@@ -359,16 +338,6 @@ const god = [
     
 ];
 
-//reveal 
-const reveal = [
-    'Yes command initiating Authenticating required , tell me the code word before proceding further.',
-    
-];
-
-//command
-const command = [
-    'Oh hi, Welcome Ziaxdev This is lucy your virtual personal assistance You are my creator and I would like express my gratitude for making me and adding those feature you are like god father to me. last but not least thank you and I wish I could serve better in future.Thanks again ?'
-];
    //weather
    
    const weather = [
@@ -377,14 +346,6 @@ const command = [
        'What would you do?if weather is good or bad.you are not going anywhere so better to ask something useful you piece of shit.',
        'Oh man why you are suddenly care about weather?Go outside and see by yourself,you lazy freak.',
        'Stop asking about weather I dont know you pathetic'
-   ];
-
-   //Language_hindi
-
-   const hindi = [
-            'I know a little bit but I am sure I can Learn much more faster than you dumbo',
-            'I dont have any friend from india Thats why may be I still Cant Speak hindi',
-            'What would you like to listen in Hindi from me?'
    ];
 
 //Identity of the service
@@ -448,15 +409,6 @@ if (message.includes('weather')) {
      
  }
 
-//for Hindi_langauge
-
-if (message.includes('Hindi')) {
-    const finalText = 
-             hindi[Math.floor(Math.random() * hindi.length)];
-    speech.text = finalText;
-
-     
- }
 
 //Identity of the Assistance
 
@@ -477,14 +429,7 @@ if (message.includes('who you are')) {
      
  }
 
- //command
- if (message.includes('football')) {
-    const finalText = 
-             command[Math.floor(Math.random() * command.length)];
-    speech.text = finalText;
 
-     
- }
 
 
  //Dark quote
@@ -541,29 +486,9 @@ if (message.includes('magic')) {
     speech.text = finalText;     
  }
 
- //eid 
- if (message.includes('Eid')) {
-     const finalText =
-     eid[Math.floor(Math.random() * eid.length)];
-     speech.text = finalText;
-     
- }
 
- //gupta
- if (message.includes('idiot')) {
-    const finalText =
-    gupta[Math.floor(Math.random() * gupta.length)];
-    speech.text = finalText;
-    
-}
 
-//Bikash gupta
-if (message.includes('lover')) {
-    const finalText =
-    bikash[Math.floor(Math.random() * bikash.length)];
-    speech.text = finalText;
-    
-}
+
 
 // ######################## Speech Settings ######################
 
