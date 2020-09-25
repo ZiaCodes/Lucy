@@ -1,7 +1,7 @@
 # Lucy
 ## For Demo click here : https://voiceassistance.netlify.app/ 
 
-An intelligent virtual assistant (IVA) or intelligent personal assistant (IPA) is a software agent that can perform tasks or services for an individual based on commands or questions. Sometimes the term "chatbot" is used to refer to virtual assistants generally or specifically accessed by online chat. In some cases, online chat programs are exclusively for entertainment purposes. Some virtual assistants are able to interpret human speech and respond via synthesized voices. Users can ask their assistants questions, control home automation devices and media playback via voice, and manage other basic tasks such as email, to-do lists, and calendars with verbal (spoken?) commands.[1] A similar concept, however with differences, lays under the dialogue systems.  
+  An intelligent virtual assistant (IVA) or intelligent personal assistant (IPA) is a software agent that can perform tasks or services for an individual based on commands or questions.Need any help ? email at ZiaXdev@gmail.com 
 
 ## screenshot
 
