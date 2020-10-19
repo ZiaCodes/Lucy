@@ -15,6 +15,25 @@ body {
   background: #eaeaea;
 }
 
+#bar{
+  position: absolute;
+  left: 205px;
+}
+#bar .navlink{
+  list-style: none;
+}
+#bar .navlink li{
+  font-weight: bold;
+}
+#bar .navlink li a{
+  text-decoration: none;
+  color: aqua;
+  font-size: 20px;
+}
+#bar .navlink li a:hover{
+  color: #006c9c;
+}
+
 .form {
   position: relative;
   width: 550px;
