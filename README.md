@@ -1,5 +1,7 @@
 # Lucy
+<< master
 ## Demo : https://voiceassistance.netlify.app/ 
+=======
 
   An intelligent virtual assistant (IVA) or intelligent personal assistant (IPA) is a software agent that can perform tasks or services for an individual based on commands or questions.Need any help ? email at ZiaXdev@gmail.com 
 
