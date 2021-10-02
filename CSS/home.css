@@ -9,16 +9,26 @@
 
 section {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #eaeaea;
 }
-section a img{
-  width: fit-content;
-  box-shadow: -6px 6px 200px rgba(0, 255, 255, 1);
 
+#home-brand{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 36vh;
+  margin: auto;
+  
 }
+#home-brand a{
+  margin:10px;
+}
+
+#logo-img{
+  box-shadow: -6px 6px 200px rgba(0, 255, 255, 1);
+}
+
 
 h2 {
   font-size: 8em;
@@ -29,20 +39,25 @@ h2 {
 .box1 {
   position: absolute;
   top: 70px;
-  right: 150px;
-  width: 250px;
-  height: 250px;
+  right: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   border-radius: 50%;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgba(0, 255, 255, 1);
+}
+.box1 img{
+  border-radius: 50%;
+  height:100%;
+  width:100%;
 }
 
 .box2 {
   position: absolute;
   bottom: 50px;
-  right: 150px;
-  width: 250px;
-  height: 250px;
+  right: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(600, 100, 2000,250);
 }
@@ -50,12 +65,17 @@ h2 {
 .box3 {
   position: absolute;
   bottom: 30px;
-  left: 150px;
-  width: 250px;
-  height: 250px;
+  left: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   border-radius: 50%;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgba(0, 0, 255, 1);
+}
+.box3 img{
+  border-radius: 50%;
+  height:100%;
+  width:100%;
 }
 
 .box3:before {
@@ -73,9 +93,9 @@ h2 {
 .box4 {
   position: absolute;
   top: 70px;
-  left: 150px;
-  width: 250px;
-  height: 250px;
+  left: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   border-radius: 50px;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(119, 21, 199);
@@ -91,4 +111,44 @@ h2 {
   background: #eaeaea;
   border-radius: 30px;
   box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.08), inset -6px -6px 12px rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 700px) {
+
+  #home-brand{
+  flex-direction: column;
+    padding-top: 24vh;
+    margin: auto;
+  }
+  #home-brand h2{
+    font-size: 6em;
+  }
+  #home-brand a{
+    margin:3.5px;
+  }
+  #home-brand #logo-img{
+    height:120px;
+    width: 120px;
+  }
+  
+  .box1,.box2,.box3,.box4{
+    width: 80px;
+  height: 80px;
+  }
+  .box1{
+    top:5%;
+    right:5%;
+  }
+  .box2{
+    bottom:5%;
+    right:5%;
+  }
+  .box3{
+    bottom:5%;
+    left:5%;
+  }
+  .box4{
+    top:5%;
+    left:5%;
+  }
 }

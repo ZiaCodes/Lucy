@@ -15,16 +15,18 @@ body {
   background: #ebf5fc;
 }
 
-.container {
-  position: relative;
+.main-body{
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content:center;
+  margin: auto;
   flex-wrap: wrap;
-  width: 1100px;
 }
 
-.container .card {
+
+
+
+ .card {
   width: 320px;
   margin: 20px;
   padding: 40px 30px;
@@ -33,28 +35,28 @@ body {
   box-shadow: -6px -6px 20px rgba(0, 255, 255, 1), 6px 6px 20px rgba(86, 44, 201, 0.1);
 }
 
-.container .card:hover {
+ .card:hover {
   box-shadow: 6px 6px 200px rgba(0, 255, 255, 0);
 }
 
-.container .card .imgBx {
+ .card .imgBx {
   position: relative;
   text-align: center;
 }
 
-.container .card .imgBx img {
+ .card .imgBx img {
   min-width: 120px;
 }
 
-.container .card .contentBx {
+ .card .contentBx {
   position: relative;margin-top: 20px;text-align: center;
 }
 
-.container .card .contentBx p {
+ .card .contentBx p {
   color: #32a3b1;
 }
 
-.container .card .contentBx .talk {
+ .card .contentBx .talk {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 15px;
@@ -64,19 +66,20 @@ body {
   box-shadow: -4px -4px 15px rgba(255, 255, 255, 1), 4px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.container .card .contentBx .talk:hover {
+ .card .contentBx .talk:hover {
   box-shadow: 6px 6px 12px rgb(21, 169, 228);
 }
 
-.container .card .talk:hover span {
+ .card .talk:hover span {
   display: block;
   transform: scale(0.98);
 }
-.container .card .contentBx .talk{
+ .card .contentBx .talk{
   outline-style: none;
 }
 
-.container .card:hover .imgBx,
-.container .card:hover .contentBx {
+ .card:hover .imgBx,
+ .card:hover .contentBx {
   transform: scale(0.98);
 }
+

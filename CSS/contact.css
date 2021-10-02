@@ -8,17 +8,25 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background: #eaeaea;
 }
 
-#bar{
-  position: absolute;
-  left: 205px;
+.main-body{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin: auto;
+  flex-wrap: wrap;
 }
+.main-body div{
+  margin:20px;
+}
+  /* 
+  #bar{
+    position: absolute;
+    left: 205px;
+  } */
 #bar .navlink{
   list-style: none;
 }
@@ -35,8 +43,7 @@ body {
 }
 
 .form {
-  position: relative;
-  width: 550px;
+  max-width: 100%;
   padding: 40px 40px 60px;
   background: #eaeaea;
   border-radius: 10px;
