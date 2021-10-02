@@ -15,14 +15,14 @@ body {
   background: #ebf5fc;
 }
 
-.container {
+/* .container {
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 1100px;
-}
+} */
 
 .container .card {
   width: 320px;
@@ -80,3 +80,4 @@ body {
 .container .card:hover .contentBx {
   transform: scale(0.98);
 }
+

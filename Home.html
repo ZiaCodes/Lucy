@@ -1,27 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Lucy | Home</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/fevicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/fevicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/fevicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/fevcon/site.webmanifest">
-    <link rel="stylesheet" type="text/css" href="css/home.css" />
-  </head>
-  <body>
-    <section>
-        <a href="index.html"><img src="assets/Images/design.png"></a>
-      <h2>Lucy</h2> <br>
-      <a href="index.html"><img src="assets/Images/mic-icon.png"></a>
-      <img src="assets/Images/tenor.gif"
-     <div class="box1"></div>
-      <div class="box2"></div>
-      <img src="assets/Images/ring-2.gif"
-      <div class="box3"></div>
-      <div class="box4"></div>
-    </section>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Lucy</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/fevicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/fevicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/fevicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/fevcon/site.webmanifest">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="Stylesheet" type="text/css" href="css/loading.css">
+  <style>
+    #main-body{
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      /* margin: auto; */
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+
+<body onload="myFunction()">
+
+  <!-- NAVIGATION BAR-->
+  
+  <div id="main-body">
+  <nav>
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="Assets/Logo/Lucy.png" style="height: 30px;width: 30px;">
+          </a>
+        </li>
+        <li>
+          <a href="index.html" class="menu-item">Home</a>
+        </li>
+        <li>
+          <a href="https://wiki.mozilla.org/Web_Speech_API_-_Speech_Recognition" target="_blank"
+            class="menu-item">Learn</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/zDo0H8Fm7d0" class="menu-item">Music</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCw5x5kwVqrsm08E3Q3LphAw" class="menu-item">Watch</a>
+        </li>
+        <li>
+          <a href="product.html" class="menu-item">Product</a>
+        </li>
+        <li>
+          <a href="https://github.com/ZiaCodes/Lucy/blob/master/README.md" target="_blank" class="menu-item">Support</a>
+        </li>
+        <li>
+          <a href="contact.html" class="menu-item">Contact us</a>
+        </li>
+      </ul>
+      <div class="search-form">
+        <form>
+          <input type="text" name="search" placeholder="Search Lucy.com" style="padding:5px; margin-top:5px;">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div id="main">
+        <span class="spinner"></span>
+    </div>-->
+  <div class="container">
+    <div class="card">
+      <div class="imgBx">
+        <img src="assets/images/design.png" alt="design">
+      </div>
+      <div class="contentBx">
+        <h2>Hi,I am Lucy</h2>
+        <p>Tap on Speak button to speak with your virtual voice assistance.</p>
+        <button class="talk"><img id="start_img" src="Assets/Images/mic-icon.png" alt="Start"></button>
+        <!--<span>Speak Now</span>-->
+      </div>
+    </div>
+    <div class="contentBx">
+      <h2 class="content"></h2>
+    </div>
+  </div>
+</div>
+  <script src="JS/app.js"></script>
+  <script src="js/loader.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

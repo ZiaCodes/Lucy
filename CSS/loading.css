@@ -51,8 +51,13 @@
 
 
   /* Navigation bar*/
-   nav{
+
+   /* nav{
        margin-left: 12px;
+    } */
+
+    nav{
+      margin:100px;
     }
   
   nav .menu ul li{
