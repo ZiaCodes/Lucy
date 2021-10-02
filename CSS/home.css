@@ -14,6 +14,20 @@ section {
   align-items: center;
   background: #eaeaea;
 }
+
+#home-brand{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:10px;
+}
+#home-brand img{
+  margin:20px;
+}
+
+
+
 section a img{
   width: fit-content;
   box-shadow: -6px 6px 200px rgba(0, 255, 255, 1);
@@ -29,20 +43,25 @@ h2 {
 .box1 {
   position: absolute;
   top: 70px;
-  right: 150px;
-  width: 250px;
-  height: 250px;
+  right: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   border-radius: 50%;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgba(0, 255, 255, 1);
+}
+.box1 img{
+  border-radius: 50%;
+  height:100%;
+  width:100%;
 }
 
 .box2 {
   position: absolute;
   bottom: 50px;
-  right: 150px;
-  width: 250px;
-  height: 250px;
+  right: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(600, 100, 2000,250);
 }
@@ -50,12 +69,17 @@ h2 {
 .box3 {
   position: absolute;
   bottom: 30px;
-  left: 150px;
-  width: 250px;
-  height: 250px;
+  left: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   border-radius: 50%;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgba(0, 0, 255, 1);
+}
+.box3 img{
+  border-radius: 50%;
+  height:100%;
+  width:100%;
 }
 
 .box3:before {
@@ -73,9 +97,9 @@ h2 {
 .box4 {
   position: absolute;
   top: 70px;
-  left: 150px;
-  width: 250px;
-  height: 250px;
+  left: 100px;
+  width: 220px;
+  height: 220px;
   background: #eaeaea;
   border-radius: 50px;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(119, 21, 199);
@@ -92,3 +116,5 @@ h2 {
   border-radius: 30px;
   box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.08), inset -6px -6px 12px rgba(255, 255, 255, 1);
 }
+
+
