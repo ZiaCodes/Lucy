@@ -26,7 +26,9 @@ section {
 }
 
 #logo-img{
-  box-shadow: -6px 6px 200px rgba(0, 255, 255, 1);
+  transform: scale(0.82);
+  /* box-shadow: -6px 6px 200px rgba(0, 255, 255, 1); */
+  box-shadow: 0 -15px 200px rgba(0, 255, 255, 1);
 }
 
 #mic-icon:hover{
@@ -37,8 +39,9 @@ section {
 
 h2 {
   font-size: 8em;
-  color: #eaeaea;
-  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), -6px -6px 12px rgb(21, 190, 212);
+  color: white;
+  /* color: #eaeaea; */
+  text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.08), 5px -5px 12px rgb(21, 190, 212);
 }
 
 .box1 {
