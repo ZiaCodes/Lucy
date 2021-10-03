@@ -83,3 +83,16 @@ body {
   transform: scale(0.98);
 }
 
+.talk:active{
+  animation-name: getPressed;
+  animation-timing-function: ease-in-out;
+  animation-duration: 10s;
+}
+@keyframes getPressed {
+  0%{
+    box-shadow: 2px 2px 12px rgb(21, 169, 228);
+  }
+  70%{
+    box-shadow: 6px 6px 12px rgb(21, 169, 228);
+  }
+}
