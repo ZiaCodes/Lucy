@@ -1,0 +1,23 @@
+nav{
+    margin-left: 16px;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  color: #32a3b3;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: #ff0047;
+
+}
+a{
+  text-decoration: none;
+  color: #32a3b3;
+  font-weight: bolder;
+}
+a:hover{
+  color: aqua;
+}
