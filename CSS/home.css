@@ -29,6 +29,11 @@ section {
   box-shadow: -6px 6px 200px rgba(0, 255, 255, 1);
 }
 
+#mic-icon:hover{
+  transform: scale(1.2);
+  transition: 0.6s;
+}
+
 
 h2 {
   font-size: 8em;
