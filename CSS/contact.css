@@ -35,11 +35,11 @@ body {
 }
 #bar .navlink li a{
   text-decoration: none;
-  color: aqua;
+  color: #32a3b3;
   font-size: 20px;
 }
 #bar .navlink li a:hover{
-  color: #006c9c;
+  color:#ff0047;
 }
 
 .form {

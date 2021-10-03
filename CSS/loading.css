@@ -69,7 +69,7 @@
     font-weight: bold;
   }
   nav .menu ul li a:hover{
-    color: aqua;
+    color: #ff0047;
     transform: scale(1);
   }
 
