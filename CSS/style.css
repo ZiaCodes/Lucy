@@ -24,7 +24,9 @@ body {
 }
 
 
-
+.card, .imgBx, .contentBx{
+  transition: all .3s ease-in-out;
+}
 
  .card {
   width: 320px;
@@ -35,11 +37,11 @@ body {
   box-shadow: -6px -6px 20px rgba(0, 255, 255, 1), 6px 6px 20px rgba(86, 44, 201, 0.1);
 }
 
- .card:hover {
+.card:hover {
   box-shadow: 6px 6px 200px rgba(0, 255, 255, 0);
 }
 
- .card .imgBx {
+.card .imgBx {
   position: relative;
   text-align: center;
 }
