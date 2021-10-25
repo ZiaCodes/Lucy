@@ -8,6 +8,9 @@ const greetings = [
     'Doing good Homeboi',
     'leave me alone',
     'I said leave me alone',
+    'No, I am expensive',
+    'What a coincidence, I love myself too',
+    'The direction, opposite the way gravity pulls',
 ];
 
 //   #############################  Dark web series  ##################################
