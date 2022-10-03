@@ -21,6 +21,4 @@
 > Javascript 
 > Web Speech recognition API  
 
-## Lucy is an open source so you can also download and customize according to your workflow.   
-
-### Downloading Link : https://github.com/ZiaCodes/Lucy/archive/master.zip
+## Resources to learn more about Web Recognization API : https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition
